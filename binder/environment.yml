@@ -1,6 +1,7 @@
 channels:
 - conda-forge
 - gardengroupuo 
+- intel
 dependencies:
 # Jupyter
 - jupyterlab=2
@@ -10,6 +11,7 @@ dependencies:
 # Python Kernel
 - python=3.7
 # Python Kernel for Organisms
+- mkl
 - pip
 - numpy
 - scipy
