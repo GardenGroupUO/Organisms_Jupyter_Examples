@@ -1,7 +1,7 @@
 from Organisms import GA_Program
 
 # This details the elemental and number of atom composition of cluster that the user would like to investigate
-cluster_makeup = {"Cu": 37}
+cluster_makeup = {"Au": 38}
 
 # Surface details
 surface_details = None #{'surface': 'surface.xyz', 'place_cluster_where': 'center'}
@@ -28,7 +28,7 @@ vacuum_to_add_length = 10.0
 # The RunMinimisation.py algorithm is one set by the user. It contain the def Minimisation_Function
 # That is used for local optimisations. This can be written in whatever way the user wants to perform
 # the local optimisations. This is meant to be as free as possible.
-from RunMinimisation_Cu import Minimisation_Function
+from RunMinimisation_Au import Minimisation_Function
 
 # This dictionary includes the information required to prevent clusters being placed in the population if they are too similar to clusters in this memory_operator
 memory_operator_information = {'Method': 'Off'}
@@ -63,7 +63,7 @@ ga_recording_information = {'ga_recording_scheme': 'Limit_energy_height', 'limit
 force_replace_pop_clusters_with_offspring = True
 user_initialised_population_folder = None 
 rounding_criteria = 10
-print_details = True
+print_details = False
 no_of_cpus = 1
 finish_algorithm_if_found_cluster_energy = None
 total_length_of_running_time = 70.0

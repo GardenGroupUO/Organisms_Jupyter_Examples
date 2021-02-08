@@ -1,4 +1,4 @@
-from GA.GA_Program import GA_Program
+from Organisms import GA_Program
 
 # This details the elemental and number of atom composition of cluster that the user would like to investigate
 cluster_makeup = {'Ne': 38}
@@ -30,25 +30,30 @@ vacuum_to_add_length = 10.0
 # the local optimisations. This is meant to be as free as possible.
 from RunMinimisation_LJ import Minimisation_Function
 
+# This dictionary includes the information required to prevent clusters being placed in the population if they are too similar to clusters in this memory_operator
+memory_operator_information = {'Method': 'Off'}
+
 # This dictionary includes the information required by the predation scheme.
 predation_information = {'Predation Operator': 'Energy', 'mode': 'comprehensive', 'type_of_comprehensive_scheme': 'energy', 'minimum_energy_diff': 0.01}
 
 # This dictionary includes the information required by the fitness scheme
-fitness_information = {'Fitness Operator': 'Energy', 'fitness_function': {'function': 'exponential', 'alpha': 3.0}}
+# fitness_information = {'Fitness Operator': 'Energy', 'fitness_function': {'function': 'exponential', 'alpha': 3.0}}
+fitness_information = {'Fitness Operator': 'SCM + Energy', 'SCM Scheme': 'T-SCM', 'rCut': 1.3495, 'SCM_fitness_contribution': 0.8, 'Dynamic Mode': False, 'Use Predation Information': False, 'energy_fitness_function': {'function': 'exponential', 'alpha': 3.0}, 'SCM_fitness_function': {'function': 'exponential', 'alpha': 1.0}}
 
 # Variables required for the Recording_Cluster.py class/For recording the history as required of the genetic algorithm.
-ga_recording_information = {}
+ga_recording_information = {'ga_recording_scheme': 'Limit_energy_height', 'limit_number_of_clusters_recorded': 1, 'limit_energy_height_of_clusters_recorded': 1.0, 'exclude_recording_cluster_screened_by_diversity_scheme': False}
 
 # These are last techinical points that the algorithm is designed in mind
-user_initialised_population_folder = "/scale_wlg_nobackup/filesets/nobackup/uoo02568/GGA_Tests/Lennard_Jones_LJ38_20_16_through_testing/Initial_Population_LJ/Ne38/Initialised_Population"
-write_pop_and_offspring_clusters_files_as = "database"
-remove_cluster_files_at_end = False
+force_replace_pop_clusters_with_offspring = True
+user_initialised_population_folder = None
 rounding_criteria = 10
-print_details = False
+print_details = True
 no_of_cpus = 1
 finish_algorithm_if_found_cluster_energy = {'cluster energy': -173.93, 'round': 2}
+total_length_of_running_time = None
 
 ''' ---------------- '''
+# This will execute the genetic algorithm program
 GA_Program(cluster_makeup=cluster_makeup,
     pop_size=pop_size,
     generations=generations,
@@ -63,14 +68,15 @@ GA_Program(cluster_makeup=cluster_makeup,
     surface_details=surface_details,
     epoch_settings=epoch_settings,
     cell_length=cell_length,
+    memory_operator_information=memory_operator_information,
     predation_information=predation_information,
     fitness_information=fitness_information,
     ga_recording_information=ga_recording_information,
+    force_replace_pop_clusters_with_offspring=force_replace_pop_clusters_with_offspring,
     user_initialised_population_folder=user_initialised_population_folder,
-    write_pop_and_offspring_clusters_files_as=write_pop_and_offspring_clusters_files_as,
-    remove_cluster_files_at_end=remove_cluster_files_at_end,
     rounding_criteria=rounding_criteria,
     print_details=print_details,
     no_of_cpus=no_of_cpus,
-    finish_algorithm_if_found_cluster_energy=finish_algorithm_if_found_cluster_energy)
+    finish_algorithm_if_found_cluster_energy=finish_algorithm_if_found_cluster_energy,
+    total_length_of_running_time=total_length_of_running_time)
 ''' ---------------- '''
