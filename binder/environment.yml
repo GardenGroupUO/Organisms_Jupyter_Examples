@@ -1,6 +1,6 @@
 channels:
 - conda-forge
-#- gardengroupuo 
+- gardengroupuo 
 dependencies:
 # Jupyter
 - jupyterlab=2
@@ -15,5 +15,5 @@ dependencies:
 - scipy
 - ase
 - asap3
-#- organisms
+- organisms
 

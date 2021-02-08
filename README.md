@@ -5,7 +5,7 @@ Examples of the Organisms Program for Jupyter/Binder: A Genetic Algorithm for Na
 ![PyPI](https://img.shields.io/pypi/v/Organisms)
 ![Conda](https://img.shields.io/conda/v/gardengroupuo/organisms)
 [![Documentation Status](https://readthedocs.org/projects/organisms/badge/?version=latest)](https://organisms.readthedocs.io/en/latest/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Live_Examples/main?filepath=Organisms_Live_Example.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Jupyter_Examples/main?filepath=Organisms_Jupyter_Example.ipynb)
 ![GitHub](https://img.shields.io/github/license/GardenGroupUO/Organisms_Live_Examples)
 
 This repository is designed to provide examples of how to use the Organisms program. The Organisms program is designed to perform a genetic algorithm global optimisation for nanoclusters. It has been designed with inspiration from the Birmingham Cluster Genetic Algorithm and the Birmingham Parallel Genetic Algorithm from the Roy Johnston Group. 
