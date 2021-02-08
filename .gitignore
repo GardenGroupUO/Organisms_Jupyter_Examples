@@ -269,3 +269,11 @@ dmypy.json
 
 pushing_to_github.sh
 .fuse_hidden*
+
+# from running genetic algorithm stuff
+epoch_data
+GA_Run_Details.txt
+ga_running.lock
+Population
+Recorded_Data
+epoch_data.backup
