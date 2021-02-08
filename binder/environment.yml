@@ -1,0 +1,19 @@
+channels:
+- conda-forge
+#- gardengroupuo 
+dependencies:
+# Jupyter
+- jupyterlab=2
+- nodejs=11
+- nbconvert=5.5
+- widgetsnbextension=3.5
+# Python Kernel
+- python=3.7
+# Python Kernel for Organisms
+- pip
+- numpy
+- scipy
+- ase
+- asap3
+#- organisms
+
