@@ -1,6 +1,6 @@
 channels:
 - conda-forge
-#- gardengroupuo 
+- gardengroupuo 
 #- intel
 dependencies:
 # Jupyter

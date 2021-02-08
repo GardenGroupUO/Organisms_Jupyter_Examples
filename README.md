@@ -16,7 +16,7 @@ The github page for the Organisms program is found at [github.com/GardenGroupUO/
 
 To Run this repository through Binder, press the Binder button below. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Live_Examples/HEAD?filepath=Notebooks/Organisms_Live_Example.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Jupyter_Examples/main?filepath=Notebooks%2FOrganisms_Jupyter_Example.ipynb)
 
 This will load a Binder page that will allow you to play about with the Organisms program interactively in Binder. This will take about 1 to 2 minutes to load. Don't refresh the page as Binder takes a good amount of time to load. Get a coffee or a cup of tea while you wait. Once this is done you will see a Jupyter notebook that you can interact with. Mess around with it as much as you want!
 
