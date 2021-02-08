@@ -16,6 +16,6 @@ dependencies:
 - numpy
 - scipy
 - ase
-- asap3
+- asap3=3.11.10
 - organisms
 
