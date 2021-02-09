@@ -5,6 +5,7 @@ channels:
 dependencies:
 # Jupyter
 - jupyterlab=2
+- jupyterlab=3
 - nodejs=11
 - nbconvert=5.5
 - widgetsnbextension=3.5
