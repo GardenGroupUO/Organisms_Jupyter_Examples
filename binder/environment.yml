@@ -8,6 +8,8 @@ dependencies:
 - nodejs=11
 - nbconvert=5.5
 - widgetsnbextension=3.5
+- jupyter_contrib_nbextensions 
+- jupyter_nbextensions_configurator
 # Python Kernel
 - python=3.7
 # Python Kernel for Organisms

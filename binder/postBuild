@@ -4,7 +4,6 @@ set -ex
 jupyter lab clean
 
 # Install a JupyterLab extension for split screens
-pip install jupyter_contrib_nbextensions nbextensions_configurator
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 
