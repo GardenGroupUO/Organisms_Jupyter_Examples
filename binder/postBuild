@@ -3,5 +3,9 @@ set -ex
 # invoke build --env-name=root --no-kernel
 jupyter lab clean
 
+# Install a JupyterLab extension for split screens
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+
 # Setup a workspace
 jupyter lab workspaces import binder/workspace.json
