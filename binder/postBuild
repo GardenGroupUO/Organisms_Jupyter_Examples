@@ -1,13 +1,14 @@
 set -ex
 
+# example from: https://github.com/jupyterlab/jupyterlab-demo
+
 # invoke build --env-name=root --no-kernel
 jupyter lab clean
 
 # Install a JupyterLab extension for split screens
 #jupyter contrib nbextension install --user
 #jupyter nbextensions_configurator enable --user
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
 
 # Setup a workspace
-# example from: https://github.com/jupyterlab/jupyterlab-demo
 jupyter lab workspaces import binder/workspace.json
-#jupyter lab workspaces import binder/binder_workspace.json
