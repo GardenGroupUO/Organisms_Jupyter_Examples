@@ -4,8 +4,8 @@ channels:
 - gardengroupuo
 dependencies:
 # Jupyter
-#- jupyterlab=2
 - jupyterlab=3
+- node>=6.11.5
 - nodejs=11
 - nbconvert=5.5
 - widgetsnbextension=3.5
