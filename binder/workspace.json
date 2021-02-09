@@ -7,7 +7,9 @@
 		"mode":"multiple-document","current":"Notebooks/Organisms_Live_Example.ipynb"},
 		"left":{"collapsed":false,"current":"filebrowser","widgets":["filebrowser","running-sessions","command-palette","tab-manager"]},
 		"right":{"collapsed":true,"widgets":[]}},
-		"file-browser-filebrowser:cwd":{"path":"Notebooks"},"notebook:Organisms_Live_Example.ipynb"},
-		"help-doc:https://organisms.readthedocs.io/en/latest/Using_Run.html":{"data":{"url":"https://organisms.readthedocs.io/en/latest/Using_Run.html","text":"Organisms Reference"}}},
+		"file-browser-filebrowser:cwd":{"path":"Notebooks"},
+		"notebook:Organisms_Live_Example.ipynb":{"data":
+			{"path":"Notebooks/Organisms_Live_Example.ipynb","factory":"Notebook"}},
+			"help-doc:https://organisms.readthedocs.io/en/latest/Using_Run.html":{"data":{"url":"https://organisms.readthedocs.io/en/latest/Using_Run.html","text":"Organisms Reference"}}},
 	"metadata":{"id":"/lab"}
 }
