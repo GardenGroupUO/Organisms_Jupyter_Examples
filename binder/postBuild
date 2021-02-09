@@ -8,5 +8,5 @@ jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 
 # Setup a workspace
-#jupyter lab workspaces import binder/workspace.json
-jupyter lab workspaces import binder/binder_workspace.json
+jupyter lab workspaces import binder/workspace.json
+#jupyter lab workspaces import binder/binder_workspace.json
