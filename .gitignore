@@ -271,9 +271,16 @@ pushing_to_github.sh
 .fuse_hidden*
 
 # from running genetic algorithm stuff
+GA_Run_Details.txt 
 epoch_data
-GA_Run_Details.txt
-ga_running.lock
-Population
-Recorded_Data
 epoch_data.backup
+ga_running.lock
+
+Population Recorded_Data 
+Initial_Population
+Saved_Points_In_GA_Run
+Memory_Operator_Data
+Diversity_Information
+
+__pycache__
+

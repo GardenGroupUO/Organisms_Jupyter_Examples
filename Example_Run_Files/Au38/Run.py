@@ -37,7 +37,7 @@ memory_operator_information = {'Method': 'Off'}
 #predation_information = {'Predation Operator':'Off'}
 #predation_information = {'Predation Operator':'Energy', 'mode': 'simple', 'round_energy': 2}
 #predation_information = {'Predation Operator':'Energy', 'mode': 'comprehensive', 'minimum_energy_diff': 0.025, 'type_of_comprehensive_scheme': 'energy'}
-predation_information = {'Predation Operator':'Energy', 'mode': 'comprehensive', 'minimum_energy_diff': 0.1, 'type_of_comprehensive_scheme': 'fitness'}
+predation_information = {'Predation Operator':'Energy', 'mode': 'comprehensive', 'minimum_energy_diff': 0.025, 'type_of_comprehensive_scheme': 'fitness'}
 #predation_information = {'Predation Operator': 'IDCM', 'percentage_diff': 5.0}
 #predation_information = {'Predation Operator': 'SCM', 'CNA Scheme': 'T-SCM', 'rCut_high': 3.2, 'rCut_low': 2.9, 'rCut_resolution': 0.05}
 
