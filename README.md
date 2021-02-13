@@ -1,13 +1,13 @@
 Examples of the Organisms Program for Jupyter/Binder: A Genetic Algorithm for Nanoclusters
 ==========================================================================================
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Organisms)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Organisms)](https://docs.python.org/3/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/GardenGroupUO/Organisms)](https://github.com/GardenGroupUO/Organisms)
 [![PyPI](https://img.shields.io/pypi/v/Organisms)](https://pypi.org/project/Organisms/)
 [![Conda](https://img.shields.io/conda/v/gardengroupuo/organisms)](https://anaconda.org/GardenGroupUO/organisms)
 [![Documentation Status](https://readthedocs.org/projects/organisms/badge/?version=latest)](https://organisms.readthedocs.io/en/latest/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Jupyter_Examples/main?urlpath=lab)
-![GitHub](https://img.shields.io/github/license/GardenGroupUO/Organisms)
+[![GitHub](https://img.shields.io/github/license/GardenGroupUO/Organisms)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 This repository is designed to provide examples of how to use the Organisms program. The Organisms program is designed to perform a genetic algorithm global optimisation for nanoclusters. It has been designed with inspiration from the Birmingham Cluster Genetic Algorithm and the Birmingham Parallel Genetic Algorithm from the Roy Johnston Group. 
 
