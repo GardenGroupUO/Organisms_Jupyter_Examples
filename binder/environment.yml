@@ -29,6 +29,9 @@ dependencies:
 
 # Python Kernel for Organisms
 - pip
+- pip:
+  # works for regular pip packages
+  - jupyter_jsmol
 - numpy
 - scipy
 - matplotlib
