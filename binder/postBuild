@@ -11,7 +11,7 @@ jupyter lab clean
 #jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
 #jupyter labextension install @jupyterlab/toc
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter nbextension enable --py --sys-prefix jupyter_jsmol
+#jupyter nbextension enable --py --sys-prefix jupyter_jsmol
 
 # Setup a workspace
 jupyter lab workspaces import binder/workspace.json
