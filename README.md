@@ -23,4 +23,4 @@ This will load a Binder page that will allow you to play about with the Organism
 
 Once this is done you will see a Jupyter notebook that you can interact with. Mess around with it as much as you want!
 
-Have fun! 
+Have fun!
