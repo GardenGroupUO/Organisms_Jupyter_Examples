@@ -9,6 +9,12 @@ Examples of the Organisms Program for Jupyter/Binder: A Genetic Algorithm for Na
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Jupyter_Examples/main?urlpath=lab)
 [![GitHub](https://img.shields.io/github/license/GardenGroupUO/Organisms)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
+Authors: Geoffrey R. Weal, Dr. Anna L. Garden; University of Otago, Dunedin, New Zealand
+
+Group page: https://blogs.otago.ac.nz/annagarden/
+
+Page to cite with work from: To be added. 
+
 This repository is designed to provide examples of how to use the Organisms program. The Organisms program is designed to perform a genetic algorithm global optimisation for nanoclusters. It has been designed with inspiration from the Birmingham Cluster Genetic Algorithm and the Birmingham Parallel Genetic Algorithm from the Roy Johnston Group. 
 
 See the documentation for the Organisms program online at [organisms.readthedocs.io/en/latest/](https://organisms.readthedocs.io/en/latest/). See the documentation about how to install Organisms, including how to install it through PIP. 
