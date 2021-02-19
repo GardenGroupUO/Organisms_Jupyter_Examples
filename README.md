@@ -13,7 +13,7 @@ Authors: Geoffrey R. Weal, Dr. Anna L. Garden; University of Otago, Dunedin, New
 
 Group page: https://blogs.otago.ac.nz/annagarden/
 
-Page to cite with work from: To be added. 
+Page to cite with work from: In submission stages
 
 This repository is designed to provide examples of how to use the Organisms program. The Organisms program is designed to perform a genetic algorithm global optimisation for nanoclusters. It has been designed with inspiration from the Birmingham Cluster Genetic Algorithm and the Birmingham Parallel Genetic Algorithm from the Roy Johnston Group. 
 
