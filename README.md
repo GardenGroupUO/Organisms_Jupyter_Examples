@@ -6,7 +6,7 @@ Examples of the Organisms Program for Jupyter/Binder: A Genetic Algorithm for Na
 [![PyPI](https://img.shields.io/pypi/v/Organisms)](https://pypi.org/project/Organisms/)
 [![Conda](https://img.shields.io/conda/v/gardengroupuo/organisms)](https://anaconda.org/GardenGroupUO/organisms)
 [![Documentation](https://img.shields.io/badge/Docs-click%20here-brightgreen)](https://organisms.readthedocs.io/en/latest/)
-[![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/GardenGroupUO/Organisms)](https://lgtm.com/projects/g/GardenGroupUO/Organisms/context:python)
+<!-- [![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/GardenGroupUO/Organisms)](https://lgtm.com/projects/g/GardenGroupUO/Organisms/context:python) -->
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GardenGroupUO/Organisms_Jupyter_Examples/main?urlpath=lab)
 [![GitHub](https://img.shields.io/github/license/GardenGroupUO/Organisms)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
