@@ -17,7 +17,7 @@ dependencies:
 #- bqplot=0.12
 #- dask=2.1
 #- pandas=0.24
-- python=3.7
+- python=3.9
 #- scikit-image=0.15
 #- scikit-learn=0.21
 #- seaborn=0.9
