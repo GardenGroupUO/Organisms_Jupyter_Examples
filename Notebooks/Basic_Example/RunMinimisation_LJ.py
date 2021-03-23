@@ -13,7 +13,6 @@ Required to outputs: AfterOpt.traj, INFO.txt
 Other outputs: Trajectory file.
  
 '''
-from ase import Atom, Atoms
 #from ase.calculators.lj import LennardJones
 import time
 from ase.data import atomic_numbers
@@ -37,7 +36,7 @@ def Minimisation_Function(cluster,collection,cluster_dir):
 			errorMessage = 'The optimisation of cluster ' + str(cluster_dir) + ' did not optimise completely.'
 			print(errorMessage, file=sys.stderr)
 			print(errorMessage)
-	except:
+	except BaseException:
 		print('Local Optimiser Failed for some reason.')
 	endTime = time.time()
 	# Write information about the algorithm
